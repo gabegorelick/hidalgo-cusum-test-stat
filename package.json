@@ -1,0 +1,33 @@
+{
+  "name": "hidalgo-cusum-test-stat",
+  "version": "0.0.1",
+  "description": "Hidalgo.js library to calculate CUSUM-based test statistics",
+  "main": "./index.js",
+  "license": "Apache-2.0",
+  "repository": "gabegorelick/hidalgo-cusum-test-stat",
+  "files": [
+    "*.js"
+  ],
+  "keywords": [
+    "hidalgo",
+    "cusum",
+    "disease",
+    "surveillance",
+    "algorithm",
+    "detector",
+    "test",
+    "statistic"
+  ],
+  "scripts": {
+    "test": "mocha test"
+  },
+  "dependencies": {
+    "compute-mean": "^1.0.1",
+    "compute-stdev": "^1.0.0",
+    "object-assign": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.21.4"
+  }
+}
